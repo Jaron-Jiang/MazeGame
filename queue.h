@@ -38,7 +38,7 @@ class queue
         LNode* p = f;
         f = f->next;
         delete p;
-        length--;
+        --length;
     }
     bool empty()
     {
